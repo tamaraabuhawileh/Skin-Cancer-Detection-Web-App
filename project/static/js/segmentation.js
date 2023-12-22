@@ -33,7 +33,7 @@ window.onload = function () {
       setTimeout(function () {
         fileInput.value = '';
         form.classList.remove('loading', 'loaded');
-      }, 5000);
+      }, 10000);
     });
   }
 };
