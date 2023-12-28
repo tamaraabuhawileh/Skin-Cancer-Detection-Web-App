@@ -95,6 +95,14 @@ h3::before {
 		margin-right: 1.5rem;
 	}
 }
+h1{
+	
+	flex: 0 0 auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 .mask{
 
 	padding-left : 300px
@@ -123,10 +131,15 @@ h3::before {
 </ol>
   </main>
 </div>
+<br><h1> Melanoma Mask </h1>
 <div class="mask">
-	<br><h3> Melanoma Mask </h3>
+	
   <br>
   <img src="{% static mask_path %}" class="result" >
 </div>
+<br>
+<br>
+<br>
+<br>
 </body>
 {% endblock content%}
